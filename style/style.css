@@ -25,7 +25,7 @@
 /*==========Home==========*/
 
 .home {
-    background-color: var(--fundo-segundario) ;
+    background: linear-gradient(131.58deg, #00138E 6%, #1CADFF 67.14%, #1BE0E2 97.71%);
     display: flex;
     justify-content: center;
     padding: 10rem 0rem;
@@ -42,7 +42,7 @@
 /*==========Sobre Nós==========*/
 
 .Sobre {
-    background-color: var(--fundo-principal);
+    background: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,7 +70,7 @@
 /*==========Conteudo==========*/
 
 .Conteudo {
-    background-color: var(--fundo-segundario);
+    background: linear-gradient(310.37deg, #00138E 10.43%, #1CADFF 68.35%, #1BE0E2 97.31%);
     display: flex;
     flex-direction: column;
     align-items: center;
