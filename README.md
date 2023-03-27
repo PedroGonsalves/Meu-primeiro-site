@@ -4,11 +4,11 @@ Este site esta servindo para mim ampliar meus conhecimentos em HTML e CSS.
 
 # Linguagens ultilizadas
 
-HTML 
-CSS
+- HTML 
+- CSS
 
 # Ferramentas Ultilizadas
 
-Figma
-Github
-Vscode
+- Figma
+- Github
+- Vscode
