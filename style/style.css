@@ -1,0 +1,93 @@
+/*==========Header==========*/
+
+#header {
+    background-color: var() ;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.const {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*==========Home==========*/
+
+.home {
+    background-color: var(--fundo-segundario) ;
+    display: flex;
+    justify-content: center;
+    padding: 10rem 0rem;
+}
+
+.home p {
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--cor-texto);
+}
+
+/*==========Sobre Nós==========*/
+
+.Sobre {
+    background-color: var(--fundo-principal);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10rem 0rem;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.Sobre h1 {
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    color: var(--cor-principal);
+    padding: 0;
+    margin: 0;
+}
+
+.Sobre p {
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    padding: 0 12rem;
+}
+
+/*==========Conteudo==========*/
+
+.Conteudo {
+    background-color: var(--fundo-segundario);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.Conteudo h1 {
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    color: var(--fundo-principal);
+    padding: 0;
+    margin: 0;
+}
+
+.caixa {
+    background-color: white;
+    padding: 2rem;
+}
