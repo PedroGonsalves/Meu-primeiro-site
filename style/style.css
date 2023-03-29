@@ -85,10 +85,103 @@
     color: var(--fundo-principal);
     padding: 0;
     margin: 0;
+    margin-bottom: 1rem;
 }
 
 .caixa {
     background-color: white;
-    padding: 2rem 0;
+    padding: 3rem 3rem;
+    text-align: center;
     
+}
+
+/*==========Nossa Meta==========*/
+
+.Meta {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10rem 0rem;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.Meta h1 {
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    color: var(--cor-principal);
+    padding: 0;
+    margin: 0;
+}
+
+.Meta p {
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    padding: 0 12rem;
+}
+
+/*==========Contato==========*/
+
+.Contato {
+    background: linear-gradient(131.58deg, #00138E 6%, #1CADFF 67.14%, #1BE0E2 97.71%);
+    flex-direction: column;    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10rem 0rem;   
+}
+
+.Contato h1 {
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    color: var(--fundo-principal);
+    margin: 0;
+
+}
+
+.Contato p {
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    color: var(--cor-texto);
+    font-size: 26px;
+}
+
+/*==========Baseboard==========*/
+
+footer {
+    background: #001623;
+    margin-top: -1.56rem;
+}
+
+.Baseboard {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.Baseboard h1 {
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    color: var(--fundo-principal);
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+.Baseboard p {
+    color: var(--fundo-principal);
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+    margin-top: .3rem;
+    line-height: 1;
 }
