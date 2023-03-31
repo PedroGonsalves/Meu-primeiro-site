@@ -11,8 +11,14 @@
 .header {
     width: 80%;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.imgheader {
+    display: flex;
+    justify-content: space-around;
 }
 
 .const {
@@ -21,6 +27,7 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
 
 /*==========Home=====================================================================================*/
 
@@ -41,19 +48,30 @@
 
 /*==========Sobre Nós=====================================================================================*/
 
-.Sobre {
+#Sobre {
     background: white;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 10rem 0rem;
     font-size: 26px;
     font-weight: 700;
 }
 
-.Sobre h1 {
+.sobreinf{
+    width: 80%;
+    display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: space-between;
+}
+
+.Sobre {
+    align-items: center;
+    justify-content: left;
+    width: 65%;
+}
+
+.Sobre h1 {
     font-weight: 700;
     color: var(--cor-principal);
     padding: 0;
@@ -61,10 +79,16 @@
 }
 
 .Sobre p {
-    align-items: center;
-    text-align: center;
+    align-items: left;
+    text-align: left;
     font-weight: 400;
-    padding: 0 12rem;
+    padding: 0;
+}
+
+.Sobreimg {
+    display: flex;
+    justify-content: end;
+    width: 45%;
 }
 
 /*==========Conteudo===========================================================================*/
@@ -88,13 +112,33 @@
     margin-bottom: 1rem;
 }
 
-.caixa {
-    background-color: white;
-    padding: 3rem 3rem;
-    text-align: center;
-    
+.caixas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
+.caixa {
+    background-color: white;
+    padding: 13px 10px;
+    text-align: center;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+.caixa:last-child {
+    margin-right: 0rem;
+}
+
+.caixa p {
+    padding:0 3rem;
+}
+
+.caixa img {
+    border-radius: 7px;
+}
 /*==========Nossa Meta=====================================================================================*/
 
 .Meta {
@@ -184,4 +228,11 @@ footer {
     font-size: 26px;
     margin-top: .3rem;
     line-height: 1;
+    margin-bottom: .1;
+}
+
+.imgfooter {
+    display: flex;
+    justify-content: center;
+    margin-top: .1;
 }
