@@ -141,11 +141,11 @@
 }
 /*==========Nossa Meta=====================================================================================*/
 
-.Meta {
+#Meta {
     background-color: white;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 10rem 0rem;
     font-size: 26px;
     font-weight: 700;
@@ -167,6 +167,13 @@
     padding: 0 12rem;
 }
 
+.imgmeta {
+    display: flex;
+    justify-content: end;
+    width: 45%;
+    margin-right: 6rem;
+}
+
 /*==========Contato=====================================================================================*/
 
 .Contato {
@@ -184,7 +191,7 @@
     font-weight: 700;
     color: var(--fundo-principal);
     margin: 0;
-
+    font-size: 36px;
 }
 
 .Contato p {
@@ -192,7 +199,7 @@
     text-align: center;
     font-weight: 700;
     color: var(--cor-texto);
-    font-size: 26px;
+    font-size: 20px;
 }
 
 /*==========Baseboard=====================================================================================*/
