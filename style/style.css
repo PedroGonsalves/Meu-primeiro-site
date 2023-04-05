@@ -140,13 +140,13 @@
     border-radius: 7px;
 }
 
-.bot1 {
+.botmais {
     border: 2px solid white;
     border-radius: 15px;
     padding: .5rem 1rem;
 }
 
-.bot1 a {
+.botmais a {
     font-size: 26px;
     color: white;
 }
@@ -194,7 +194,7 @@
 
 /*==========Contato=====================================================================================*/
 
-.Contato {
+#Contato {
     background: linear-gradient(131.58deg, #00138E 6%, #1CADFF 67.14%, #1BE0E2 97.71%);
     flex-direction: column;    
     display: flex;
@@ -219,6 +219,8 @@
     color: var(--cor-texto);
     font-size: 20px;
 }
+
+
 
 /*==========Baseboard=====================================================================================*/
 
