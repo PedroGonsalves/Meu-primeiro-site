@@ -195,8 +195,7 @@
 /*==========Contato=====================================================================================*/
 
 #Contato {
-    background: linear-gradient(131.58deg, #00138E 6%, #1CADFF 67.14%, #1BE0E2 97.71%);
-    flex-direction: column;    
+    background: linear-gradient(131.58deg, #00138E 6%, #1CADFF 67.14%, #1BE0E2 97.71%);   
     display: flex;
     justify-content: center;
     text-align: center;
@@ -220,7 +219,30 @@
     font-size: 20px;
 }
 
+.NomeeEmail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+.botnome {
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: .5rem 1rem;
+}
+
+.botemail {
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: .5rem 1rem;
+}
+   
+.botmsg {
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: .5rem 1rem;
+}
 
 /*==========Baseboard=====================================================================================*/
 
