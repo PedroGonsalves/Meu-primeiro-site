@@ -223,14 +223,14 @@
     display: flex;
     justify-content: row;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     width:  100%;
-    gap: 8rem;
+    gap: 7.18rem;
     margin-bottom: 1rem;
 }
 
 .Contatoinf .botnome, .botemail {
-    width: 100%;
+    width: 125%;
     padding: 1rem;
     background-color: #ffffff;
     border: none;
@@ -239,8 +239,8 @@
 
 .Contatoinf .botmsg {
     align-items: center;
-    width: 100%;
-    padding: 5rem 0;
+    width: 98.3%;
+    padding: 10px 0 5rem 10px;
     background-color: #ffffff;
     border: none;
     border-radius: 20px;
