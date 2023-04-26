@@ -221,20 +221,17 @@
 
 .NomeeEmail {
     display: flex;
-    justify-content: row;
-    align-items: center;
-    justify-content: left;
-    width:  100%;
-    gap: 7.18rem;
+    flex-direction: row;
+    justify-content: space-between;
     margin-bottom: 1rem;
 }
 
 .Contatoinf .botnome, .botemail {
-    width: 125%;
     padding: 1rem;
     background-color: #ffffff;
     border: none;
     border-radius: 20px;
+    width: 40%;
 }
 
 .Contatoinf .botmsg {
