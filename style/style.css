@@ -56,8 +56,6 @@
     height: 100%;
 }
 
-
-
 .home {
     padding: 10rem 0rem;
     width: 80%;
@@ -223,9 +221,8 @@
     background: linear-gradient(131.58deg, #00138E 6%, #1CADFF 67.14%, #1BE0E2 97.71%);   
     display: flex;
     flex-direction: row;
-    justify-content: center;
     text-align: center;
-    padding: 10rem 0rem;   
+    padding: 19px 0rem;   
     border-radius: 0 0 0 300px;
     overflow: hidden;
 }
@@ -282,7 +279,16 @@
     margin-left: 0rem;
 }
 
-.contatoinf img {
+.backcontato {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 70%;
+}
+
+.imagem {
+    justify-content: left;
+    align-items: left;
     width: 100%;
     height: 100%;
 }
